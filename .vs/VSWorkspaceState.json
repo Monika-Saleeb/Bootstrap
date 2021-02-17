@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\conFusion"
+    "\\conFusion",
+    "\\conFusion\\CSS"
   ],
+  "SelectedNode": "\\conFusion\\CSS\\style.css",
   "PreviewInSolutionExplorer": false
 }
