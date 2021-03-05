@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css"/>
 
-    <link href="conFusion/CSS/style.css" rel="stylesheet" />
+    <link href="conFusion/CSS/styles.css" rel="stylesheet" />
 
     <title>Ristorante Con Fusion</title>
 </head>
@@ -232,7 +232,7 @@
                         <button class="btn btn-danger btn-sm" id="carouselButton">
                             <span id="carousel-button-icon" class="fa fa-pause"></span>
                         </button>
-                        
+
 
                     </div>
                 </div>
@@ -391,14 +391,14 @@
     </script>-->
 
     <script>
-        $(document).ready(function() {
+        $(document).ready(function () {
             $("#mycarousel").carousel({ interval: 2000 });
-            $("#carouselButton").click(function() {
+            $("#carouselButton").click(function () {
                 if ($('#carouselButton').children("span").hasClass('fa-pause')) {
                     $("#mycarousel").carousel('pause');
                     $("#carouselButton").children("span").removeClass('fa-pause');
                     $("#carouselButton").children("span").addClass('fa-play');
-                } 
+                }
                 else if ($('#carouselButton').children("span").hasClass('fa-play')) {
                     $("#mycarousel").carousel('cycle');
                     $("#carouselButton").children("span").removeClass('fa-play');
